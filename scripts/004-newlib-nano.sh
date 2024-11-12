@@ -13,7 +13,7 @@ onerr()
 trap onerr ERR
 
 ## Download the source code.
-REPO_URL="https://github.com/KrahJohlito/newlib"
+REPO_URL="https://github.com/KrahJohlito/newlib.git"
 REPO_FOLDER="newlib"
 BRANCH_NAME="ee-v4.3.0-23"
 if test ! -d "$REPO_FOLDER"; then
